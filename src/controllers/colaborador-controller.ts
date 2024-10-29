@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { ColaboradorService } from "../services/colaborador-service.js";
+import { ColaboradorService } from "../services/colaborador-service";
 
 export class ColaboradorController {
     private colaboradorService: ColaboradorService;

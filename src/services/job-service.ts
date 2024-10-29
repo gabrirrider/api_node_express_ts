@@ -1,5 +1,5 @@
-import Job from "../models/job-model.js";
-import sequelize from "../shared/connection.js";
+import Job from "../models/job-model";
+import sequelize from "../shared/connection";
 
 export class JobService {
     public async createJob(contractId: number, description: string, operationDate: Date, paymentDate: Date, price: number, paid: boolean): Promise<Job> {

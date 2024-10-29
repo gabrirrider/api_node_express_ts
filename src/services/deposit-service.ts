@@ -1,5 +1,5 @@
-import Deposit from "../models/deposit-model.js";
-import Profile from "../models/profile-model.js";
+import Deposit from "../models/deposit-model";
+import Profile from "../models/profile-model";
 
 export class DepositService {
     public async createDeposit(clienteId: number, depositValue: number): Promise<Deposit> {

@@ -1,4 +1,4 @@
-import Job, { JobCreationAttributes } from "../models/job-model.js";
+import Job, { JobCreationAttributes } from "../models/job-model";
 
 export class JobRepository {
     public async create(data: JobCreationAttributes): Promise<Job> {

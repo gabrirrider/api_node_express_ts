@@ -1,4 +1,4 @@
-import Profile from "../models/profile-model.js";
+import Profile from "../models/profile-model";
 
 export class ProfileService {
     public async createProfile(firstName: string, lastName: string, profession: string, balance: number, type: string): Promise<Profile> {

@@ -1,4 +1,4 @@
-import Contract from "../models/contract-model.js";
+import Contract from "../models/contract-model";
 
 export class ContractService {
     public async createContract(terms: string, clienteId: number, contractorId: number, operationDate: Date, status: string): Promise<Contract> {

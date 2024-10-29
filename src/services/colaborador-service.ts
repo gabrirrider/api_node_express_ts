@@ -1,4 +1,4 @@
-import Colaborador from "../models/colaborador-model.js";
+import Colaborador from "../models/colaborador-model";
 
 
 export class ColaboradorService {

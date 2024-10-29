@@ -1,5 +1,5 @@
 import { Model, DataTypes, Optional, Sequelize } from 'sequelize';
-import Profile from './profile-model.js';
+import Profile from './profile-model';
 
 interface ContractAttributes {
     id: number;

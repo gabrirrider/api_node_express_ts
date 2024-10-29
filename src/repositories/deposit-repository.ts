@@ -1,4 +1,4 @@
-import Deposit, { DepositCreationAttributes } from "../models/deposit-model.js";
+import Deposit, { DepositCreationAttributes } from "../models/deposit-model";
 
 export class DepositRepository {
     public async create(data: DepositCreationAttributes): Promise<Deposit> {

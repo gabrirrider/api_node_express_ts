@@ -1,5 +1,5 @@
 import { Model, DataTypes, Optional, Sequelize } from 'sequelize';
-import Contract from './contract-model.js';
+import Contract from './contract-model';
 
 interface JobAttributes {
     id: number;

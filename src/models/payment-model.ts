@@ -1,5 +1,5 @@
 import { Model, DataTypes, Optional, Sequelize } from 'sequelize';
-import Job from './job-model.js';
+import Job from './job-model';
 
 interface PaymentAttributes {
     id: number;

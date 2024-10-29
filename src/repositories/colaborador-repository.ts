@@ -1,4 +1,4 @@
-import { Colaborador, ColaboradorCreationAttributes } from "../models/colaborador-model.js";
+import { Colaborador, ColaboradorCreationAttributes } from "../models/colaborador-model";
 
 export class COlaboradorRepository {
     // Create a new Colaborador
